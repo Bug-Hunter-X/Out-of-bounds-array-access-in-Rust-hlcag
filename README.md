@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Rust: out-of-bounds array access. The `bug.rs` file contains code that attempts to access an element of a vector using an index that is out of bounds.  The `bugSolution.rs` file demonstrates how to safely handle this issue using either `get()` or checking the index before accessing the element. This will prevent the runtime panic.
